@@ -1,0 +1,20 @@
+body {
+    background-color: lightblue;
+}
+
+.background {
+    background-image: url(./assets/upfeathers.png);
+    height: 60px;
+    width: 75%;
+}
+
+.border{
+    border-style: dotted;
+    padding: 20px;
+    width: 80%;
+}
+
+#id{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
