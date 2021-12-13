@@ -1,0 +1,207 @@
+.socialIcon {
+    height: 50%;
+    width: 50%;
+    
+}
+/* Common Elements */
+body {
+    font-size: 67.5%;
+    font-family: Tahoma, Geneva, sans-Serif;
+    background: #e7e0de url(./assets/Cork\ texture.jfif) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+h1 {
+    color: #c28d1a;
+    font-size: 2.0em;
+    padding: 0;
+    margin: 0.5em 0 0.5em 0;
+}
+
+h2 {
+    color: #745b2f;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #555;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+
+a, a:visited {
+    color: #fff;
+}
+
+hr {
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+
+.wrapIt {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+
+/* Header */
+
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: #dfbfb2 url(./assets/Glacier\ National\ Park.jpg);
+    border-bottom: #411f04 solid 3px;
+    box-shadow: 1px 1px 5px #411f04; 
+}
+
+header h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: #352a17;
+    font-size: 7.5em;
+    letter-spacing: -0.025em;
+    margin: 0;
+}
+
+/* Nav Bars */
+
+nav {
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.3em 0.6em;
+}
+
+nav#utilityMenu {
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    /* background-color: rgba(17, 16, 14, 0.8); */
+    height: 7em;
+}
+
+nav#utilityMenu li {
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    height: 1.3em;
+    padding: 0.5em;
+    margin: -0.4em 0 0 0;
+    font-size: 0.8em;
+}
+
+nav#utilityMenu ul li.acctNav a.active {
+    color: #fff;
+}
+
+nav#utilityMenu li a, nav#utilityMenu li a:visited { padding: 0;}
+
+nav#utilityMenu ul li input#search {
+    vertical-align: middle;
+    margin: 0 0 0 1.0em;
+}
+
+nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::before {
+    content: "|";
+    color: #FCFBE6;
+}
+/* Top Section */
+section#wrapIt {
+    width: 90%;
+    float: center;
+    position: relative;
+    display: block;
+    background-color: rgba(252,251,243,0.7);
+    margin: 3em 0 3.0em 3em;
+    padding: 3em;
+    border-radius: .5em;
+    border: #411f04 solid 3px;
+    box-shadow: 1px 1px 5px #411f04;
+}
+/* Main Section */
+#main {
+    background-color: rgba(252,251,243,0.7);
+    margin: 3em;
+    padding: 3em; 
+    display:inline-block;
+    border-radius: .5em;
+    border: #411f04 solid 3px;
+    box-shadow: 1px 1px 5px #411f04; 
+}
+
+section div.panel {
+    float: left;
+    position: relative;
+    width: 300px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.5em;
+}
+
+section div.panel img.picture {
+    width: 100%;
+}
+/* Footer */
+footer {
+    background-color: #40362f;
+    height: 25px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding:0 0.7em 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "|";
+    padding-right: 0.7em;
+}
+
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
